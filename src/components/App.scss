@@ -1,0 +1,40 @@
+html, body {
+    box-sizing: border-box;
+    background-color: #faf7f6;
+}
+.search {
+    position: relative;
+    top: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.books {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.input {
+    box-shadow: 3px #ccc;
+    border-radius: 0.2rem;
+}
+
+.image {
+    display: block;
+    box-shadow: 5px #abc;
+}
+
+.book {
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #f3edeb;
+    border-radius: .25rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 1rem -.75rem #dfc8c0;
+    display: flex;
+    margin: 1rem;
+} 
+
+.info {
+    padding-left: 1rem;
+} 
